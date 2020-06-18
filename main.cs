@@ -8,7 +8,7 @@ class MainClass {
     double F = (C*9/5)+32;
 Console.WriteLine("Fahrenheit equilvalence for"+" "+" " + C +" "+ "degree celsius is "+ F);
     
-    if(F <= 32){
+    if(F < 32){
       Console.WriteLine("This temperature is below freezing temperature of 32 degrees farenheit");
       }
      if(F >212){
